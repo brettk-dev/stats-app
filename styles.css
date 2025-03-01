@@ -1,0 +1,21 @@
+.stat-list {
+  padding: 0;
+
+  .stat {
+    display: flex;
+    gap: 1rem;
+
+    .stat-name {
+      width: 8rem;
+    }
+
+    .stat-value {
+      width: 4rem;
+    }
+
+    .stat-minus,
+    .stat-plus {
+      width: 3rem;
+    }
+  }
+}
